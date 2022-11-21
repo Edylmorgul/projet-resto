@@ -9,7 +9,7 @@
 
 p{
     font-weight: 300;
-    color: #1111;
+    color: #111;
 }
 
 header{
@@ -23,6 +23,10 @@ header{
     justify-content: space-evenly;
     align-items: center;
     transition: 0.5s;
+}
+
+section{
+    padding: 100px;
 }
 
 /* Logo */
@@ -129,4 +133,42 @@ header .navbar li a:hover{
 
 .btn1:hover{
     letter-spacing: 4px;
+}
+
+/* A propos */
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+
+.titre{
+    color:#000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+
+.titre span{
+    color: #fb911f;
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+
+.row .col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
 }
