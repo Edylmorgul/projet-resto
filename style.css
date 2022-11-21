@@ -25,7 +25,52 @@ header{
     transition: 0.5s;
 }
 
-/* logo */
+/* Logo */
 .logo{
+    /*color: #fff;*/
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.logo span{
+    color: #fb911f;
+}
+
+/* Menu navigation */
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    /*color: #fff;*/
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-reservation{
+    padding: 10px 20px;
+    background: #fb911f;
+    margin-top: -10px; /* Afin de centrer bouton */
+    text-transform: uppercase;
+}
+
+.btn-reservation:hover{
+    background: #d87710;
+    transition: ease-out;
+}
+
+header .navbar li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+
+.banniere{
     
 }
