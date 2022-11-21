@@ -1,0 +1,31 @@
+/* Paramètres globaux */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #1111;
+}
+
+header{
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex; /* Afin d'aligner les éléments */
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+/* logo */
+.logo{
+    
+}
